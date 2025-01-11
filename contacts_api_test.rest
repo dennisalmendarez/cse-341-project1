@@ -1,0 +1,9 @@
+# Get All Users
+GET https://cse-341-project1-la3i.onrender.com/users
+Content-Type: application/json
+
+###
+
+# Get User by ID
+GET https://cse-341-project1-la3i.onrender.com/users/6782c550b8fc7fc513c50280
+Content-Type: application/json
