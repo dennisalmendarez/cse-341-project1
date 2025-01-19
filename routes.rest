@@ -1,0 +1,39 @@
+### Get request to fetch all users
+GET http://localhost:3000/users
+
+###
+
+### Get request to fetch a specific user
+GET http://localhost:3000/users/6782c5efb8fc7fc513c50281
+
+###
+
+### POST request to create a new user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Marcel max",
+    "username": "marcelmax",
+    "phone_number": "08012345678",
+    "email": "marcelsam@mail.com",
+    "ip_address": "36.36.35.156"
+}
+
+###
+
+### PUT request to update a user
+PUT http://localhost:3000/users/6782c5efb8fc7fc513c50281
+Content-Type: application/json
+
+{
+    "name": "Marcelina maxia",
+    "username": "maracelmaxas",
+    "phone_number": "08015345678",
+    "email": "marcedsalsam@mail.com",
+    "ip_address": "36.36.35.155"
+}
+
+###
+
+DELETE http://localhost:3000/users/678b0d85265263b3c1b7e985
