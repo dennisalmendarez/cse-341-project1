@@ -121,16 +121,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "name": {
+                "firstname": {
                   "example": "any"
                 },
-                "phone_number": {
+                "lastname": {
                   "example": "any"
                 },
                 "email": {
                   "example": "any"
                 },
-                "ip_address": {
+                "favcolor": {
+                  "example": "any"
+                },
+                "birthday": {
                   "example": "any"
                 }
               }
