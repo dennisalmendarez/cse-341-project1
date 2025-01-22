@@ -23,7 +23,7 @@ const getSingle = async (req, res) => {
 const createUser = async (req, res) => {
         //#swagger.tags = ['Users']
     const user = {
-        firstname: req.body.name,
+        firstname: req.body.firstname,
         lastname: req.body.lastname,
         email: req.body.email,
         favcolor: req.body.favcolor,
@@ -41,7 +41,7 @@ const updateUser = async (req, res) => {
         //#swagger.tags = ['Users']
     const userId = new ObjectId(req.params.id);
     const user = {
-        firstname: req.body.name,
+        firstname: req.body.firstname,
         lastname: req.body.lastname,
         email: req.body.email,
         favcolor: req.body.favcolor,
