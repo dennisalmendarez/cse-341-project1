@@ -46,21 +46,19 @@
         "description": "",
         "parameters": [
           {
-            "name": "body",
+            "firstname": "body",
+            "lastname": "body",
             "in": "body",
             "schema": {
               "type": "object",
               "properties": {
-                "name": {
-                  "example": "any"
-                },
-                "phone_number": {
-                  "example": "any"
-                },
                 "email": {
                   "example": "any"
                 },
-                "ip_address": {
+                "favcolor": {
+                  "example": "any"
+                },
+                "birthday": {
                   "example": "any"
                 }
               }
