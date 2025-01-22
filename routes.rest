@@ -4,7 +4,7 @@ GET http://localhost:3000/users
 ###
 
 ### Get request to fetch a specific user
-GET http://localhost:3000/users/6782c5efb8fc7fc513c50281
+GET http://localhost:3000/users/67910295058fc158b61a54ae
 
 ###
 
@@ -13,27 +13,27 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "name": "Marcel max",
-    "username": "marcelmax",
-    "phone_number": "08012345678",
+    "firstname": "Marcel",
+    "lastname": "Max",
     "email": "marcelsam@mail.com",
-    "ip_address": "36.36.35.156"
+    "favcolor": "Pink",
+    "birthday": "09/26/1995"
 }
 
 ###
 
 ### PUT request to update a user
-PUT http://localhost:3000/users/6782c5efb8fc7fc513c50281
+PUT http://localhost:3000/users/679103a14d1b60b2437fd69b
 Content-Type: application/json
 
 {
-    "name": "Marcelina maxia",
-    "username": "maracelmaxas",
-    "phone_number": "08015345678",
-    "email": "marcedsalsam@mail.com",
-    "ip_address": "36.36.35.155"
+    "firstname": "Marceia",
+    "lastname": "Maxima",
+    "email": "marcelsam@mail.com",
+    "favcolor": "Pink",
+    "birthday": "09/26/1995"
 }
 
 ###
 
-DELETE http://localhost:3000/users/678b0d85265263b3c1b7e985
+DELETE http://localhost:3000/users/6791055b4d1b60b2437fd69c
