@@ -63,7 +63,7 @@
                 "favcolor": {
                   "example": "any"
                 },
-                "birthday": {
+                "birthdate": {
                   "example": "any"
                 }
               }
@@ -133,7 +133,7 @@
                 "favcolor": {
                   "example": "any"
                 },
-                "birthday": {
+                "birthdate": {
                   "example": "any"
                 }
               }
