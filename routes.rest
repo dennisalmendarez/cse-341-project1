@@ -23,7 +23,7 @@ Content-Type: application/json
 ###
 
 ### PUT request to update a user
-PUT http://localhost:3000/users/679103a14d1b60b2437fd69b
+PUT http://localhost:3000/users/6791105ce841fbc40d14591c
 Content-Type: application/json
 
 {
@@ -36,4 +36,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/users/67910e95b77541a3790b9b4e
+DELETE http://localhost:3000/users/67910f9ce841fbc40d14591b
